@@ -1,0 +1,5 @@
+## NextJS 14 Route Structure
+
+1. Start with an app folder and an app/layout.tsx
+2. page.tsx defines the changing part of the app
+3. create routes by creating folders within /app whose names match the corresponding route
