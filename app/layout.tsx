@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Counter from "../components/Counter";
 
 export default function RootLayout({
   children,
@@ -27,6 +28,7 @@ export default function RootLayout({
               </li>
             </ul>
           </nav>
+          <Counter />
         </footer>
       </body>
     </html>
